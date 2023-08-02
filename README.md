@@ -19,10 +19,7 @@ Online HTML, CSS and JavaScript editor to run code online.
 
 <body>
   
-  <h1 style="font-family: 'Borel', cursive;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Sacramento', cursive;
-font-family: 'Yanone Kaffeesatz', sans-serif;">
+  <h1 style="font-family: 'Sacramento', cursive;">
    Let's Enhance Our DSA Skills
   </h1>
 <img src="https://usagif.com/wp-content/uploads/2022/hqgif/goku-mui-ultra-instinct-acegif-6-transformation.gif" />
