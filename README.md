@@ -22,7 +22,7 @@ Online HTML, CSS and JavaScript editor to run code online.
   <h1 style="font-family: 'Sacramento', cursive;">
    Let's Enhance Our DSA Skills
   </h1>
-<img src="https://usagif.com/wp-content/uploads/2022/hqgif/goku-mui-ultra-instinct-acegif-6-transformation.gif" />
+<img src="https://usagif.com/wp-content/uploads/2022/hqgif/goku-mui-ultra-instinct-acegif-6-transformation.gif" >
   
   
 </body>
