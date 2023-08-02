@@ -22,7 +22,7 @@ Online HTML, CSS and JavaScript editor to run code online.
   <h1 style="font-family: 'Sacramento', cursive;">
    Let's Enhance Our DSA Skills
   </h1>
-<img src="https://media.tenor.com/egxm_ajg8hgAAAAM/goku.gif" width="100%" >
+<img src="https://media.tenor.com/egxm_ajg8hgAAAAM/goku.gif" width="300px" >
   
   
 </body>
