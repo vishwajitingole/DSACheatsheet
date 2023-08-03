@@ -4,7 +4,7 @@ import java.util.*;
 
 public class p5_largestelement {
     public static int getlargest(int brr[]) {
-        int l = 0;
+        int l = 0;// Initialize l with the first element of the array
         int res = 0;
         for (int i = 1; i < brr.length; i++) {
             if (brr[i] > l) {

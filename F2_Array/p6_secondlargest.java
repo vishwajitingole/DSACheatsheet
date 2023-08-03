@@ -2,7 +2,7 @@ package F2_Array;
 
 class Larger {
     public int secondLargest(int[] arr) {
-        int l = arr[0];
+        int l = arr[0];// Initialize l with the first element of the array
         int res = 0;
         for (int i = 1; i < arr.length; i++) {
             if (arr[i] > l) {
