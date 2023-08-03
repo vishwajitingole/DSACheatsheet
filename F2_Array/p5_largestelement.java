@@ -7,16 +7,16 @@ public class p5_largestelement {
         int l = 0;
         int res = 0;
         for (int i = 1; i < brr.length; i++) {
-            if (brr[i] > brr[l]) {
-                res = brr[i];
+            if (brr[i] > l) {
+                l = brr[i];
             }
         }
-        return res;
+        return l;
     }
 
     public static void main(String arg[]) {
 
-        int arr[] = { 1, 2, 3, 4 };
+        int arr[] = { 1, 45, 3, 4 };
         int large = getlargest(arr);
         System.out.println("Largest number is: " + large);
 
