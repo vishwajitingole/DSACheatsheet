@@ -1,6 +1,5 @@
 package F3_Recursion;
 
-// Java program to generate power set
 import java.util.*;
 
 class p4_subsetOfString {
@@ -13,7 +12,8 @@ class p4_subsetOfString {
 
         // base case
         if (index == n) {
-            System.out.println(curr);
+            System.out.println(index + curr);
+
             return;
         }
 
@@ -24,9 +24,10 @@ class p4_subsetOfString {
 
     // Driver code
     public static void main(String[] args) {
-        String str = "abc";
+        String str = "ab";
         int index = 0; // Start index from 0
         String curr = "";
+
         print(str, index, curr);
     }
 }

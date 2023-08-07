@@ -18,7 +18,7 @@ public class p5_towerOfHanoi {
     }
 
     public static void main(String arg[]) {
-        int l = 2; // You can set the number of disks here
+        int l = 200; // You can set the number of disks here
         char A = 'A', B = 'B', C = 'C'; // Assign values to A, B, and C representing the three towers
         TOH(l, A, B, C);
     }
