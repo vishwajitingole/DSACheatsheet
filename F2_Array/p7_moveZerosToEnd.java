@@ -7,7 +7,7 @@ public class p7_moveZerosToEnd {
         int count = 0; // Initialize a variable 'count' to keep track of the non-zero elements
 
         // Loop through the array
-        for (int i = 1; i < arr.length; i++) {
+        for (int i = 0; i < arr.length; i++) {
             if (arr[i] != 0) {
                 // If the current element is non-zero, move it to the front of the array at the
                 // 'count' index
