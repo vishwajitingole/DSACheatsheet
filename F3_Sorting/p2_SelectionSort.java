@@ -18,11 +18,19 @@ public class p2_SelectionSort {
                     min = j;
                 }
             }
+
+            swap(arr, i, min);
             // Swap elements
-            int temp = arr[min];
-            arr[min] = arr[i];
-            arr[i] = temp;
+            // int temp = arr[min];
+            // arr[min] = arr[i];
+            // arr[i] = temp;
         }
+    }
+
+    public static void swap(int arr[], int a, int b) {
+        int temp = arr[a];
+        arr[a] = arr[b];
+        arr[b] = temp;
     }
 
     public static void main(String arg[]) {
