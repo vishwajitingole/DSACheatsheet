@@ -11,7 +11,7 @@ public class p2_SelectionSort {
     public static void ss(int arr[]) {
         int n = arr.length;
 
-        for (int i = 0; i < n - 1; i++) {
+        for (int i = 0; i < n; i++) {
             int min = i; // Corrected: Initialize min with i
             for (int j = i + 1; j < n; j++) {
                 if (arr[j] < arr[min]) { // Corrected: Compare arr[j] with arr[min]
@@ -34,7 +34,7 @@ public class p2_SelectionSort {
     }
 
     public static void main(String arg[]) {
-        int arr[] = { 12, 4, 21, 42, 1, 3, 432, 28 };
+        int arr[] = { 12, 4, 21, 42, 1, 3, 432, 28, 1 };
         ss(arr);
         for (int i = 0; i < arr.length; i++)
             System.out.print(arr[i] + " ");

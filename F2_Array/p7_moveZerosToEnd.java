@@ -12,7 +12,8 @@ public class p7_moveZerosToEnd {
                 // If the current element is non-zero, move it to the front of the array at the
                 // 'zero' index
                 // Increment 'zero' to prepare for the next non-zero element
-                arr[zero++] = arr[i];
+                arr[zero] = arr[i];
+                zero++;
             }
         }
 
