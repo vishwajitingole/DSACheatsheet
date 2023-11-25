@@ -13,7 +13,6 @@ class p4_subsetOfString {
         // base case
         if (index == n) {
             System.out.println(index + curr);
-
             return;
         }
 

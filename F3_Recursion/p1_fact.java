@@ -20,5 +20,6 @@ public class p1_fact {
 
         int f = fact(a);
         System.out.println(f);
+        sc.close();
     }
 }
