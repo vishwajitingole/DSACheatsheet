@@ -11,7 +11,6 @@ public class p1_countDigits {
             a = a / 10; // Aakhri digit ko hata do
             res++;     // Digits ki ginti badhao
         }
-        
         return res; // Digits ki ginti wapas karo
     }
     
