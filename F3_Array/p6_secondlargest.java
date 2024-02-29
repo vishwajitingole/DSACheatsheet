@@ -1,4 +1,4 @@
-package F2_Array;
+package F3_Array;
 
 // A separate class 'Larger' to find the second largest element in an array
 class Larger {

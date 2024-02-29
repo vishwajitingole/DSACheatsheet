@@ -1,4 +1,4 @@
-package F2_Array;
+package F3_Array;
 
 public class p9_rotatebyone {
     // Method to rotate the array by one position to the left

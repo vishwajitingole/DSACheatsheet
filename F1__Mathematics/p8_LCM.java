@@ -10,14 +10,17 @@ public class p8_LCM {
             if (b == 0) {
                 return a;
             }
-            GCD(b,a%b);
+           return GCD(b,a%b);
         }
   
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-       int gcd= GCD(a, b);
+        int gcd = GCD(a, b);
+        int mul = a * b;
+        int lcm = mul / gcd;
+        System.out.println(lcm);
 
     }
 }

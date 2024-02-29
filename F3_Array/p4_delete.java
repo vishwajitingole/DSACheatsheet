@@ -1,4 +1,4 @@
-package F2_Array; // Declares the package name
+package F3_Array; // Declares the package name
 
 import java.util.*; // Imports all classes from the java.util package
 

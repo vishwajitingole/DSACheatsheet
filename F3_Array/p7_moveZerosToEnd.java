@@ -1,4 +1,4 @@
-package F2_Array;
+package F3_Array;
 
 public class p7_moveZerosToEnd {
     // This method moves all the non-zero elements to the beginning of the array and

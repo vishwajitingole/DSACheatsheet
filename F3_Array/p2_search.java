@@ -1,4 +1,4 @@
-package F2_Array; // Declares the package name
+package F3_Array; // Declares the package name
 
 import java.util.Scanner; // Imports the Scanner class from java.util package
 
