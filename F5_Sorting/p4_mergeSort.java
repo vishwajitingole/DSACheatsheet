@@ -1,4 +1,4 @@
-package F3_Sorting;
+package F5_Sorting;
 
 //TIme Complexity :- O(n)
 //Stable sorting of algorithm as it maintains the original order of the items/ elements

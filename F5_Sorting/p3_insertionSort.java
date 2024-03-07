@@ -1,4 +1,4 @@
-package F3_Sorting;
+package F5_Sorting;
 
 //Time Complexity :- O(n)
 //Used when the array size is less
