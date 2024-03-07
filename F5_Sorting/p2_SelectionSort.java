@@ -1,6 +1,6 @@
 package F5_Sorting;
 
-//Time Complexity :- O(n)
+//Time Complexity :- O(nsquare)
 //Does less memory writes in compared to other alogorithms
 //Cycle sort is Optimal Algorithm
 //Not stable
@@ -10,7 +10,7 @@ import java.util.*;
 public class p2_SelectionSort {
     public static void ss(int arr[]) {
         int n = arr.length;
-
+         
         for (int i = 0; i < n; i++) {
             int min = i; // Corrected: Initialize min with i
             for (int j = i + 1; j < n; j++) {

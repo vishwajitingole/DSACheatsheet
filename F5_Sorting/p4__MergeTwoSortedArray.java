@@ -2,7 +2,7 @@ package F5_Sorting;
 
 import java.util.*;
 
-public class p4_1Merge {
+public class p4__MergeTwoSortedArray {
     public static void merge(int a[], int b[]) {
         int i = 0, j = 0;
         int m = a.length;
@@ -19,6 +19,8 @@ public class p4_1Merge {
             }
 
         }
+        //jab comparision karke hojaye aur sorted array mil jaaye fir
+        // jo bacche kuch jo element hai jo print nhi huye wo print honge
         while (i < m) {
             System.out.print(a[i++] + " ");
         }

@@ -21,18 +21,28 @@ public class p4_mergeSort {
 
     }
 
-    public static void merge(int arr[], int l, int m, int r) {
+   public static void merge(int arr[], int l, int m, int r) {
+        // Calculate sizes of two halves
         int a = m - l + 1;
         int b = r - m;
+
+        // Create temporary arrays
         int left[] = new int[a];
         int right[] = new int[b];
+
+        // Copy data to temporary arrays
         for (int i = 0; i < a; i++) {
             left[i] = arr[l + i];
         }
         for (int j = 0; j < b; j++) {
             right[j] = arr[m + 1 + j];
         }
-        int i = 0, j = 0, k = l; // Start k from 'l' instead of '1'
+
+        // Merge the temporary arrays
+
+        int i = 0, j = 0, k = l;
+
+        // Compare elements and merge
         while (i < a && j < b) {
             if (left[i] <= right[j]) {
                 arr[k] = left[i];
@@ -43,17 +53,20 @@ public class p4_mergeSort {
             }
             k++;
         }
+
+        // Copy remaining elements of left[] if any
         while (i < a) {
             arr[k] = left[i];
             i++;
             k++;
         }
+
+        // Copy remaining elements of right[] if any
         while (j < b) {
             arr[k] = right[j];
             j++;
             k++;
         }
-
     }
 
     public static void main(String arg[]) {

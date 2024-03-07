@@ -13,5 +13,14 @@ Heap Sort
 Quick Sort (Fastest all of them,Divide and COnquer)
 
 ##Hybrid Algorithm(Used in Libraries)
-Time Sort
-Intro Sort
+Time Sort (Insertion and Merge Sort as the input size increases)
+Intro Sort ()
+
+##Stability in Sorting
+#Stable Sorts:- Bubble Sort,Insertion Sort,Merge Sort
+#Unstable sorts :- Selection sort, Quicksort, Heap Sort
+
+####Quick Recap
+Bubble Sort:- Harr element ek dusre se baari baari compare karenge aur replace karenge
+Selection Sort :- Ek minimum element dhundhenge aur usse sabse front mein daalenge
+Insertion Sort :- Ek ek ko uthayenge aur left wale se compare karke sahi jagah pe daal denge aur jo bhi beech wale honge side mein hatta denge (ek element aage dhakel denge)
