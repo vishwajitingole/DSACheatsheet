@@ -24,3 +24,7 @@ Intro Sort ()
 Bubble Sort:- Harr element ek dusre se baari baari compare karenge aur replace karenge
 Selection Sort :- Ek minimum element dhundhenge aur usse sabse front mein daalenge
 Insertion Sort :- Ek ek ko uthayenge aur left wale se compare karke sahi jagah pe daal denge aur jo bhi beech wale honge side mein hatta denge (ek element aage dhakel denge)
+Merge Sort :- Ye array ko divide karega aur fir merge karega sort karte huye
+Quick Sort :- Sab pivot kaa khel hai pivot ke hisab se array sort kiya jta hai
+Lomuto :- last element se
+Hoare's :- Front element se (Ye better hai)
