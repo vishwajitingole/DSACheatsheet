@@ -22,7 +22,7 @@ public class S2_DFS {
     public static void DFS(ArrayList<ArrayList<Integer>> adj, int start) {
         boolean visited[] = new boolean[adj.size()];
         dfsRec(adj, start, visited);
-    }
+    }   
 
     public static void dfsRec(ArrayList<ArrayList<Integer>> adj,int start,boolean[] visited) {
         visited[start] = true;

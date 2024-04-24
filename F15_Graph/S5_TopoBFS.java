@@ -19,28 +19,40 @@ public class S5_TopoBFS {
     }
 
     public static void topologicalBFS(ArrayList<ArrayList<Integer>> adj) {
-        int[] inDegree = new int[adj.size()];
-        for (int i = 0; i < adj.size(); i++) {
-            for (int v : adj.get(i)) {
-                inDegree[v]++;
-            }
-        }
+    // Ek array banaya hai jisme har vertex ka indegree store hoga
+    int[] inDegree = new int[adj.size()];
+    // Har vertex ka indegree calculate kiya ja raha hai
+   for (int i = 0; i < adj.size(); i++) {
+    // adj.get(i) se hum i-th vertex ke adjacent vertices ka list le rahe hain
+    for (int v : adj.get(i)) {
+        // Har adjacent vertex ke liye uska indegree badha rahe hain
+        inDegree[v]++;
+    }
+}
 
-        Queue<Integer> queue = new LinkedList<>();
-        for (int i = 0; i < adj.size(); i++) {
-            if (inDegree[i] == 0)
-                queue.add(i);
-        }
 
-        while (!queue.isEmpty()) {
-            int u = queue.poll();
-            System.out.print(u + " ");
-            for (int v : adj.get(u)) {
-                if (--inDegree[v] == 0)
-                    queue.add(v);
-            }
+    // Ek queue banaya hai jisme un vertices ko store kiya jayega jinke indegree 0 hai
+    Queue<Integer> queue = new LinkedList<>();
+    // Sabse pehle woh vertices queue mein daale jinke indegree 0 hai
+    for (int i = 0; i < adj.size(); i++) {
+        if (inDegree[i] == 0)
+            queue.add(i);
+    }
+
+    // Jab tak queue khali nahi hoti
+    while (!queue.isEmpty()) {
+        // Queue se ek vertex nikali jati hai
+        int u = queue.poll();
+        // Us vertex ko print kiya jata hai
+        System.out.print(u + " ");
+        // Us vertex se jo vertices connected hain, unka indegree kam kiya jata hai
+        for (int v : adj.get(u)) {
+            if (--inDegree[v] == 0)
+                queue.add(v); // Agar kisi vertex ka indegree 0 ho jata hai, toh usko queue mein daala jata hai
         }
     }
+}
+
 
     public static void main(String[] args) {
         int v = 5;
