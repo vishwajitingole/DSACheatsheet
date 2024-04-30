@@ -1,4 +1,3 @@
-package F15_Graph;
 
 
 //This algorithm is going to find minimum wirelength 
@@ -10,7 +9,7 @@ package F15_Graph;
 //Technical terms mein bola jaaye toh minimum weights required to connect 
 //All the edges
 
-
+import java.util.*;
 import java.util.Arrays;
 
 public class S6_MinSpanning {

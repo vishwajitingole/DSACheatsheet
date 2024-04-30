@@ -1,5 +1,4 @@
-package F15_Graph;
-
+import java.util.LinkedList;
 import java.util.*;
 
 public class S1_BFS {
