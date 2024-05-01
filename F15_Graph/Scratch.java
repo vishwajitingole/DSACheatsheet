@@ -36,7 +36,7 @@ public class Scratch {
     // Process the vertices in topological order
     while (!q.isEmpty()) {
         int data = q.poll();
-        System.out.println(data);
+        System.out.print(data+" ");
         for (int v : adj.get(data)) {
             if (--inDegree[v] == 0) {
                 q.add(v);
@@ -53,19 +53,14 @@ public class Scratch {
         for (int i = 0; i < V; i++) {
             adj.add(new ArrayList<>());
         }
-       addEdge(adj, 0, 1);
+        addEdge(adj, 0, 1);
         addEdge(adj, 2, 3);
-        addEdge(adj, 1, 5);
-        addEdge(adj, 0, 5);
-        addEdge(adj, 3, 4);
+        addEdge(adj, 0, 1); // Duplicate edge for testing
         addEdge(adj, 2, 1);
-        addEdge(adj, 0, 2);
-        addEdge(adj, 0, 3);
-        addEdge(adj, 3, 5);
-        addEdge(adj, 5, 2);
+        addEdge(adj, 1, 3);
 
         
-        print(adj);
+      
 
         topo(adj, 0);
     }
