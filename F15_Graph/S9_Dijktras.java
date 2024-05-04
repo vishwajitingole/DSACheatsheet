@@ -1,5 +1,7 @@
 import java.util.*;
 
+//Just like minimum spanning tree
+
 public class S9_Dijktras {
     static class Node implements Comparable<Node> {
         int vertex;
