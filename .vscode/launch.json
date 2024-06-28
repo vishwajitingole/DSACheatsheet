@@ -1,273 +1,280 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "BinarySearchTree",
-            "request": "launch",
-            "mainClass": "F14_BST.BinarySearchTree",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "AdjacencyListGraph",
-            "request": "launch",
-            "mainClass": "F15_Graph.AdjacencyListGraph",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "AdjacencyMatrix",
-            "request": "launch",
-            "mainClass": "F15_Graph.AdjacencyMatrix",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "Main",
-            "request": "launch",
-            "mainClass": "F15_Graph.Main",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "S1_BFS",
-            "request": "launch",
-            "mainClass": "F15_Graph.S1_BFS",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "S2_DFS",
-            "request": "launch",
-            "mainClass": "F15_Graph.S2_DFS",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "S5_TopoBFS",
-            "request": "launch",
-            "mainClass": "F15_Graph.S5_TopoBFS",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "S6_MinSpanning",
-            "request": "launch",
-            "mainClass": "F15_Graph.S6_MinSpanning",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "S8_Kruskal",
-            "request": "launch",
-            "mainClass": "F15_Graph.S8_Kruskal",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "p1_sumOfNnumbers",
-            "request": "launch",
-            "mainClass": "F1_Analysis_of_Algorithm.p1_sumOfNnumbers",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "p1_countDigits",
-            "request": "launch",
-            "mainClass": "F1__Mathematics.p1_countDigits",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "p2_palindromeNum",
-            "request": "launch",
-            "mainClass": "F1__Mathematics.p2_palindromeNum",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "p3_facto",
-            "request": "launch",
-            "mainClass": "F1__Mathematics.p3_facto",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "p4_factorecur",
-            "request": "launch",
-            "mainClass": "F1__Mathematics.p4_factorecur",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "p5_trailingZerosInFacto",
-            "request": "launch",
-            "mainClass": "F1__Mathematics.p5_trailingZerosInFacto",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "p6_GCD",
-            "request": "launch",
-            "mainClass": "F1__Mathematics.p6_GCD",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "p6_GCDRecur",
-            "request": "launch",
-            "mainClass": "F1__Mathematics.p6_GCDRecur",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "p7_LCM",
-            "request": "launch",
-            "mainClass": "F1__Mathematics.p7_LCM",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "p8_LCM",
-            "request": "launch",
-            "mainClass": "F1__Mathematics.p8_LCM",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "p1_fact",
-            "request": "launch",
-            "mainClass": "F2_Recursion.p1_fact",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "p2_printnto1",
-            "request": "launch",
-            "mainClass": "F2_Recursion.p2_printnto1",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "p3__palindromeString",
-            "request": "launch",
-            "mainClass": "F2_Recursion.p3__palindromeString",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "p3_print1ton",
-            "request": "launch",
-            "mainClass": "F2_Recursion.p3_print1ton",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "p3_print1tonEfficient",
-            "request": "launch",
-            "mainClass": "F2_Recursion.p3_print1tonEfficient",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "p4_subsetOfString",
-            "request": "launch",
-            "mainClass": "F2_Recursion.p4_subsetOfString",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "p5_towerOfHanoi",
-            "request": "launch",
-            "mainClass": "F2_Recursion.p5_towerOfHanoi",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "p1_array",
-            "request": "launch",
-            "mainClass": "F3_Array.p1_array",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "p2_search",
-            "request": "launch",
-            "mainClass": "F3_Array.p2_search",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "p3_insert",
-            "request": "launch",
-            "mainClass": "F3_Array.p3_insert",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "p4_delete",
-            "request": "launch",
-            "mainClass": "F3_Array.p4_delete",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "p5_largestelement",
-            "request": "launch",
-            "mainClass": "F3_Array.p5_largestelement",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "p6_secondlargest",
-            "request": "launch",
-            "mainClass": "F3_Array.p6_secondlargest",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "p7_moveZerosToEnd",
-            "request": "launch",
-            "mainClass": "F3_Array.p7_moveZerosToEnd",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "p8_revArray",
-            "request": "launch",
-            "mainClass": "F3_Array.p8_revArray",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "p9_rotatebyone",
-            "request": "launch",
-            "mainClass": "F3_Array.p9_rotatebyone",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "p1_BinarySearch",
-            "request": "launch",
-            "mainClass": "F4_Searching.p1_BinarySearch",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        },
-        {
-            "type": "java",
-            "name": "S10_LeftViewBTree",
-            "request": "launch",
-            "mainClass": "S10_LeftViewBTree",
-            "projectName": "DSACheatsheet-GFG_80f91ee3"
-        }
-    ]
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "p1_intro",
+      "request": "launch",
+      "mainClass": "F6_Matrix.p1_intro",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "BinarySearchTree",
+      "request": "launch",
+      "mainClass": "F14_BST.BinarySearchTree",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "AdjacencyListGraph",
+      "request": "launch",
+      "mainClass": "F15_Graph.AdjacencyListGraph",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "AdjacencyMatrix",
+      "request": "launch",
+      "mainClass": "F15_Graph.AdjacencyMatrix",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "F15_Graph.Main",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "S1_BFS",
+      "request": "launch",
+      "mainClass": "F15_Graph.S1_BFS",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "S2_DFS",
+      "request": "launch",
+      "mainClass": "F15_Graph.S2_DFS",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "S5_TopoBFS",
+      "request": "launch",
+      "mainClass": "F15_Graph.S5_TopoBFS",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "S6_MinSpanning",
+      "request": "launch",
+      "mainClass": "F15_Graph.S6_MinSpanning",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "S8_Kruskal",
+      "request": "launch",
+      "mainClass": "F15_Graph.S8_Kruskal",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "p1_sumOfNnumbers",
+      "request": "launch",
+      "mainClass": "F1_Analysis_of_Algorithm.p1_sumOfNnumbers",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "p1_countDigits",
+      "request": "launch",
+      "mainClass": "F1__Mathematics.p1_countDigits",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "p2_palindromeNum",
+      "request": "launch",
+      "mainClass": "F1__Mathematics.p2_palindromeNum",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "p3_facto",
+      "request": "launch",
+      "mainClass": "F1__Mathematics.p3_facto",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "p4_factorecur",
+      "request": "launch",
+      "mainClass": "F1__Mathematics.p4_factorecur",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "p5_trailingZerosInFacto",
+      "request": "launch",
+      "mainClass": "F1__Mathematics.p5_trailingZerosInFacto",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "p6_GCD",
+      "request": "launch",
+      "mainClass": "F1__Mathematics.p6_GCD",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "p6_GCDRecur",
+      "request": "launch",
+      "mainClass": "F1__Mathematics.p6_GCDRecur",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "p7_LCM",
+      "request": "launch",
+      "mainClass": "F1__Mathematics.p7_LCM",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "p8_LCM",
+      "request": "launch",
+      "mainClass": "F1__Mathematics.p8_LCM",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "p1_fact",
+      "request": "launch",
+      "mainClass": "F2_Recursion.p1_fact",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "p2_printnto1",
+      "request": "launch",
+      "mainClass": "F2_Recursion.p2_printnto1",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "p3__palindromeString",
+      "request": "launch",
+      "mainClass": "F2_Recursion.p3__palindromeString",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "p3_print1ton",
+      "request": "launch",
+      "mainClass": "F2_Recursion.p3_print1ton",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "p3_print1tonEfficient",
+      "request": "launch",
+      "mainClass": "F2_Recursion.p3_print1tonEfficient",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "p4_subsetOfString",
+      "request": "launch",
+      "mainClass": "F2_Recursion.p4_subsetOfString",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "p5_towerOfHanoi",
+      "request": "launch",
+      "mainClass": "F2_Recursion.p5_towerOfHanoi",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "p1_array",
+      "request": "launch",
+      "mainClass": "F3_Array.p1_array",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "p2_search",
+      "request": "launch",
+      "mainClass": "F3_Array.p2_search",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "p3_insert",
+      "request": "launch",
+      "mainClass": "F3_Array.p3_insert",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "p4_delete",
+      "request": "launch",
+      "mainClass": "F3_Array.p4_delete",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "p5_largestelement",
+      "request": "launch",
+      "mainClass": "F3_Array.p5_largestelement",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "p6_secondlargest",
+      "request": "launch",
+      "mainClass": "F3_Array.p6_secondlargest",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "p7_moveZerosToEnd",
+      "request": "launch",
+      "mainClass": "F3_Array.p7_moveZerosToEnd",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "p8_revArray",
+      "request": "launch",
+      "mainClass": "F3_Array.p8_revArray",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "p9_rotatebyone",
+      "request": "launch",
+      "mainClass": "F3_Array.p9_rotatebyone",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "p1_BinarySearch",
+      "request": "launch",
+      "mainClass": "F4_Searching.p1_BinarySearch",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    },
+    {
+      "type": "java",
+      "name": "S10_LeftViewBTree",
+      "request": "launch",
+      "mainClass": "S10_LeftViewBTree",
+      "projectName": "DSACheatsheet-GFG_80f91ee3"
+    }
+  ]
 }
