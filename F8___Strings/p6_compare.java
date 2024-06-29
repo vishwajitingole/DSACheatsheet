@@ -1,4 +1,4 @@
-package F8_Strings;
+package F8___Strings;
 
 public class p6_compare {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package F8_Strings;
+package F8___Strings;
 public class p3_palindrome {
     public static void main(String[] args) {
         String str = "racecar";

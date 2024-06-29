@@ -1,4 +1,4 @@
-package F8_Strings;
+package F8___Strings;
 
 public class p1_intro {
     public static void main(String[] args) {
