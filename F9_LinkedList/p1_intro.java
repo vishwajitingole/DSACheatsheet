@@ -39,18 +39,46 @@ public class p1_intro {
         tail = newNode;
     }
 
+    public void removeFirst(Node h) {
+        if (size == 0) {
+            System.out.println("Linkedlist is Empty");
+        }
+        else if(size==1){
+            h = null;
+        }
+        head = h.next;
+        return;
+    }
+
+    public void removeLast(Node h) {
+        if (size == 0) {
+            System.out.println("LinkedList is Empty");
+            return;
+        }
+        else if(size==1){
+             h = null;
+        }
+        Node curr = head;
+        for (int i = 0; i < size - 2; i++) {
+            curr = curr.next;
+        }
+        curr.next = null;
+        return;
+    }
+
     public static void main(String[] args) {
         p1_intro li = new p1_intro();
         li.addFirst(0);
         li.addLast(1);
         li.addFirst(2);
         li.addFirst(4);
-       
-        printll(head);
         li.addPos(3, 2);
         printll(head);
+        li.removeLast(head);
+        printll(head);
+
           
-        System.out.println("Size:- "+li.size);
+       
     }
 
     public static void printll(Node l) {
