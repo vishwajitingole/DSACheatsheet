@@ -6,10 +6,10 @@ import java.util.*;
 //Time Complexity: O(n^2)
 //Memory Writes: Kam hoti hai compared to other algorithms
 //Cycle Sort Optimal Algorithm mana jata hai
-//Stability: Nahi hai (Not Stable)
+//Stability: Nahi hai (Not Stable) :- Order of equal elements may change
 
 public class p2_SelectionSort {
-    
+
     // Selection Sort Function
     public static void ss(int arr[]) {
         int n = arr.length;
