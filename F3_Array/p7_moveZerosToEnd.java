@@ -20,8 +20,8 @@ public class p7_moveZerosToEnd {
         // After the first loop, all non-zero elements are moved to the beginning of the
         // array
         // Now, we need to fill the remaining positions in the array with zeros
-        while (zero < arr.length) {
-            arr[zero++] = 0;
+        while (count < arr.length) {
+            arr[count++] = 0;
         }
     }
 
