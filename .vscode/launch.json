@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "p25_MaxFrequency",
+      "request": "launch",
+      "mainClass": "F3_Array.p25_MaxFrequency",
+      "projectName": "DSACheatsheet_926dc2ab"
+    },
+    {
+      "type": "java",
       "name": "p15_LeadersInArray",
       "request": "launch",
       "mainClass": "p15_LeadersInArray",
