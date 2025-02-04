@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "p2_secondHighest",
+      "request": "launch",
+      "mainClass": "F7_Hashing.p2_secondHighest",
+      "projectName": "DSACheatsheet_926dc2ab"
+    },
+    {
+      "type": "java",
       "name": "p25_MaxFrequency",
       "request": "launch",
       "mainClass": "F3_Array.p25_MaxFrequency",
