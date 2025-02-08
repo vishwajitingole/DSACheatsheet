@@ -1,5 +1,8 @@
 package F5_Sorting;
 
+import java.util.ArrayList;
+import java.util.List;
+
 //TIme Complexity :- O(n)
 //Stable sorting of algorithm as it maintains the original order of the items/ elements
 
@@ -21,53 +24,39 @@ public class p4_mergeSort {
 
     }
 
-   public static void merge(int arr[], int l, int m, int r) {
-        // Calculate sizes of two halves
-        int a = m - l + 1;
-        int b = r - m;
+  public static void merge(int[] arr, int low, int mid, int high) {
+    List<Integer> temp = new ArrayList<>(); // Temporary sorted array
+    int left = low;      // Left part ka starting index
+    int right = mid + 1; // Right part ka starting index
 
-        // Create temporary arrays
-        int left[] = new int[a];
-        int right[] = new int[b];
-
-        // Copy data to temporary arrays
-        for (int i = 0; i < a; i++) {
-            left[i] = arr[l + i];
-        }
-        for (int j = 0; j < b; j++) {
-            right[j] = arr[m + 1 + j];
-        }
-
-        // Merge the temporary arrays
-
-        int i = 0, j = 0, k = l;
-
-        // Compare elements and merge
-        while (i < a && j < b) {
-            if (left[i] <= right[j]) {
-                arr[k] = left[i];
-                i++;
-            } else {
-                arr[k] = right[j];
-                j++;
-            }
-            k++;
-        }
-
-        // Copy remaining elements of left[] if any
-        while (i < a) {
-            arr[k] = left[i];
-            i++;
-            k++;
-        }
-
-        // Copy remaining elements of right[] if any
-        while (j < b) {
-            arr[k] = right[j];
-            j++;
-            k++;
+    // ✅ Step 1: Compare & Merge two sorted parts
+    while (left <= mid && right <= high) {
+        if (arr[left] < arr[right]) {
+            temp.add(arr[left]); // Left part ka element chhota hai, add karo
+            left++;
+        } else {
+            temp.add(arr[right]); // Right part ka element chhota hai, add karo
+            right++;
         }
     }
+
+    // ✅ Step 2: Agar left part me kuch bacha ho toh add karo
+    while (left <= mid) {
+        temp.add(arr[left]);
+        left++;
+    }
+
+    // ✅ Step 3: Agar right part me kuch bacha ho toh add karo
+    while (right <= high) {
+        temp.add(arr[right]);
+        right++;
+    }
+
+    // ✅ Step 4: Sorted `temp` array wapas `arr` me copy karo
+    for (int i = low; i <= high; i++) {
+        arr[i] = temp.get(i - low); // `i - low` indexing adjust karta hai
+    }
+}
 
     public static void main(String arg[]) {
         int arr[] = { 1, 20, 3, 2, 8, 5, 19 };

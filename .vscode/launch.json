@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "p4_mergeSort",
+      "request": "launch",
+      "mainClass": "F5_Sorting.p4_mergeSort",
+      "projectName": "DSACheatsheet_926dc2ab"
+    },
+    {
+      "type": "java",
       "name": "p2_secondHighest",
       "request": "launch",
       "mainClass": "F7_Hashing.p2_secondHighest",
