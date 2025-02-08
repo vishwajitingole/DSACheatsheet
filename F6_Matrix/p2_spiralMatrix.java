@@ -8,42 +8,42 @@ public class p2_spiralMatrix {
         printSpiral(matrix);
     }
 
-    public static void printSpiral(int m[][]) {
-    int startRow = 0;
-    int startCol = 0;
-    int endRow = m.length - 1;
-    int endCol = m[0].length - 1;
-
-    while (startRow <= endRow && startCol <= endCol) {
-        // Top will be printed
-        for (int i = startCol; i <= endCol; i++) {
-            System.out.print(m[startRow][i] + " ");
-        }
-        startRow++;
-
-        // Right will be printed
-        for (int i = startRow; i <= endRow; i++) {
-            System.out.print(m[i][endCol] + " ");
-        }
-        endCol--;
-
-        // Bottom will be printed
-        if (startRow <= endRow) {
-            for (int i = endCol; i >= startCol; i--) {
-                System.out.print(m[endRow][i] + " ");
+    public static void printSpiral(int matrix[][]) {
+        int top = 0;  // 🔹 First Row
+        int left = 0;  // 🔹 First Column
+        int bottom = matrix.length - 1;  // 🔹 Last Row
+        int right = matrix[0].length - 1;  // 🔹 Last Column
+    
+        while (top <= bottom && left <= right) {
+            // 🔹 Print Top Row
+            for (int i = left; i <= right; i++) {
+                System.out.print(matrix[top][i] + " ");
             }
-            endRow--;
-        }
-
-        // Left will be printed
-        if (startCol <= endCol) {
-            for (int i = endRow; i >= startRow; i--) {
-                System.out.print(m[i][startCol] + " ");
+            top++;
+    
+            // 🔹 Print Right Column
+            for (int i = top; i <= bottom; i++) {
+                System.out.print(matrix[i][right] + " ");
             }
-            startCol++;
+            right--;
+    
+            // 🔹 Print Bottom Row
+            if (top <= bottom) {
+                for (int i = right; i >= left; i--) {
+                    System.out.print(matrix[bottom][i] + " ");
+                }
+                bottom--;
+            }
+    
+            // 🔹 Print Left Column
+            if (left <= right) {
+                for (int i = bottom; i >= top; i--) {
+                    System.out.print(matrix[i][left] + " ");
+                }
+                left++;
+            }
         }
     }
-}
-
+    
     
 }
