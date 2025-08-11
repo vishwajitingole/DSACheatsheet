@@ -13,7 +13,20 @@ public class p11_revWords {
         System.out.println(res.toString());
 
     }
+     public static String revwords(String s){
+        String res="";
+
+      String[] parts=  s.split(res);
+
+      for(int i=s.length()-1;i<=0;i--){
+        res+=parts[i];
+      }
+
+        return res;
+    }
     public static void main(String[] args) {
         rev(" Vishwajit is Name ");
+        String k="Big busty woman";
+System.out.println(revwords(k));
     }
 }

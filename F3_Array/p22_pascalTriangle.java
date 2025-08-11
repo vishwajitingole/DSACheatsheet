@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class p22_pascalTriangle {
-    class Solution {
-        private List<Integer> generateRow(int row) {
+
+        private static List<Integer> generateRow(int row) {
             long ans = 1;
             List<Integer> ansRow = new ArrayList<>();
             // Inserting the 1st element
@@ -20,7 +20,7 @@ public class p22_pascalTriangle {
             return ansRow;
         }
 
-        public List<List<Integer>> pascalTriangle(int numRows) {
+        public  static List<List<Integer>> pascalTriangle(int numRows) {
             List<List<Integer>> pascalTriangle = new ArrayList<>();
 
             // Store the entire Pascal's Triangle
@@ -31,6 +31,10 @@ public class p22_pascalTriangle {
             // Return the Pascal's Triangle
             return pascalTriangle;
         }
+
+    public static void main(String[] args) {
+
+       System.out.println(pascalTriangle(5));
     }
 
 }

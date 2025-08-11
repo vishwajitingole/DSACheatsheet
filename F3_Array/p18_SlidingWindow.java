@@ -1,3 +1,4 @@
+package F3_Array;
 public class p18_SlidingWindow {
     // Ismein hum ek window define karte hain jo ek specific size ka hota hai aur us
     // window ka max number dhundhte hai

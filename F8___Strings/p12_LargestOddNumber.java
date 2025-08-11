@@ -20,8 +20,10 @@ public class p12_LargestOddNumber {
 
         return s.substring(i, j+1);
     }
+
+   
     public static void main(String arg[]){
 String s="002334430";
-System.out.print(larg(s));
+
     }
 }

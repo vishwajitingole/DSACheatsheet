@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "p22_pascalTriangle",
+      "request": "launch",
+      "mainClass": "F3_Array.p22_pascalTriangle",
+      "projectName": "DSACheatsheet_926dc2ab"
+    },
+    {
+      "type": "java",
+      "name": "p12_LargestOddNumber",
+      "request": "launch",
+      "mainClass": "F8___Strings.p12_LargestOddNumber",
+      "projectName": "DSACheatsheet_926dc2ab"
+    },
+    {
+      "type": "java",
       "name": "p4_mergeSort",
       "request": "launch",
       "mainClass": "F5_Sorting.p4_mergeSort",

@@ -1,3 +1,4 @@
+package F3_Array;
 public class p17_maxconsecof1s {
     public static int max(int arr[]) {
         int curr = 0;

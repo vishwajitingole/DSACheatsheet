@@ -1,3 +1,4 @@
+package F13Tree;
 import java.util.Scanner;
 
 class Node {

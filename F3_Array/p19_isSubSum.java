@@ -1,3 +1,4 @@
+package F3_Array;
 public class p19_isSubSum {
     // Iski madat se hum ye identify karenge ki kahi number k sum toh nhi hai kisi
     // array element kaa
