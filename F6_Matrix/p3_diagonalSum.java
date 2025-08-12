@@ -23,10 +23,14 @@ public class p3_diagonalSum {
         for (int i = 0; i < m.length; i++) {
             //primary diagonal
             sum += m[i][i];
-            if (i != m.length - i - 1) {
+            
                 sum += m[i][m.length - i - 1];
-            }
+            
         }
+        if(m.length%2!=0){
+ sum-= m[m.length/2][m.length/2];
+        }
+       
         System.out.println("Both Diagonal :- " + sum);
 
     }

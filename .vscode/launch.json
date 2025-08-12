@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "p8_setZeros",
+      "request": "launch",
+      "mainClass": "F6_Matrix.p8_setZeros",
+      "projectName": "DSACheatsheet_926dc2ab"
+    },
+    {
+      "type": "java",
       "name": "p22_pascalTriangle",
       "request": "launch",
       "mainClass": "F3_Array.p22_pascalTriangle",
