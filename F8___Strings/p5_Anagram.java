@@ -14,7 +14,7 @@ public class p5_Anagram {
         for (int i = 0; i < t.length(); i++) {
             Arr[t.charAt(i)]++;
         }
-        int[] arr={1,2,34,5};
+  
         
        
         for (int i = 0; i < b.length(); i++) {
