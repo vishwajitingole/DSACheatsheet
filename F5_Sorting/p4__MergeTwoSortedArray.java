@@ -12,7 +12,7 @@ public class p4__MergeTwoSortedArray {
         // two array
 
         while (i < m && j < n) {
-            if (a[i] < b[j]) {
+            if (a[i] <= b[j]) {
                 System.out.print(a[i++] + " ");
             } else {
                 System.out.print(b[j++] + " ");
