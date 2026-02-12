@@ -26,7 +26,7 @@ public class p11_revWords {
     }
     public static void main(String[] args) {
         rev(" Vishwajit is Name ");
-        String k="Big busty woman";
+        String k="Naam toh sunna Hoga";
 System.out.println(revwords(k));
     }
 }
